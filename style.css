@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.main{
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+    margin: 10px;
+
+}
