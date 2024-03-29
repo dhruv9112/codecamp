@@ -20,3 +20,86 @@
   color: brown;
  }
 
+ body{
+    padding: 0;
+    margin: 0;
+ }
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: brown;
+    position: relative;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.newinput{
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.newinput::placeholder{
+    color: brown;
+
+}
+
+.newinput:focus{
+    outline: solid ;
+    color: brown;
+    
+}
+
+.btn{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+   
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color: antiquewhite;
+}
+
