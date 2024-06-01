@@ -1,7 +1,14 @@
 
+ /* id> class > tagname (order of specificity) */
+
+/*  for class we use .   */
+
+/* padding is internal sapce between text and box, margin is space between two boxes or outside space */
+
+  
 
  .heading1{
-  background-color: black;
+  background-color: black;     
   color: red;
  }                                 
  .heading2{
@@ -9,7 +16,7 @@
   color: black;
  }
 
-
+/* id we use # */
  #head1{
   background-color: green;
   color: blue;
@@ -26,8 +33,8 @@
  }
 
 .container{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: brown;
     position: relative;
 }

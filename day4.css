@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black; 
+}
+
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: pink;
+}
+
+.third{
+    background-color: yellow;
+}
