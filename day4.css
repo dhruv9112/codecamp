@@ -1,23 +1,59 @@
+/* display properties */
+/* they are used to change the property of children elements(which are inside container) */
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-    width: 900px;
+/* .container{
+  width: 900px;
     height: 600px;
     background-color: brown;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* display flex divides the inner content into rows and columns */
+    /* display: flex; */
+    /* flex direction act as kind of main axis by default its row*/
+    /* flex-direction: row; */
+    /* justify content adjusts its value according to flex direction or main axis */
+    /* justify-content: center; */
+    /* align items works perpendicular to flex direction or it works in cross axis */
+    /* align-items: center; */
+
+/* } */
+  
+ 
+
+/* .container{
+   width: 100vw;
+   height: 100vh; 
+   background-color: coral;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
 }
 
-.box{
+.pfp{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('https://github.com/dhruv9112.png');
+    background-size: cover;
+    
+}
+
+.class1{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+} */
+
+
+
+/* .box{
     width: 100px;
     height: 100px;
-    border: 2px solid black; 
+    border: 2px solid black;
 }
 
 .first{
@@ -30,4 +66,35 @@ body{
 
 .third{
     background-color: yellow;
+} */
+
+
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
 }
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: left-right 2s forwards infinite alternate;
+}
+
+@keyframes left-right{
+    0% {
+        transform: translateX(0);
+    
+    }
+    33%{
+        transform: translateY(300%);     
+    }
+    66%{
+        transform: translateX(300%) translateY(300%);
+    }
+    100%{
+        transform: translateX(300%);
+    }
+}
+    
+
