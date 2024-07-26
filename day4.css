@@ -11,7 +11,7 @@ body{
     background-color: brown;
     /* display flex divides the inner content into rows and columns */
     /* display: flex; */
-    /* flex direction act as kind of main axis by default its row*/
+    /* flex direction act as kind of main axis, by default its row*/
     /* flex-direction: row; */
     /* justify content adjusts its value according to flex direction or main axis */
     /* justify-content: center; */
@@ -20,7 +20,7 @@ body{
 
 /* } */
   
- 
+ /* vw stands for view width, vh for view height */
 
 /* .container{
    width: 100vw;
@@ -32,21 +32,25 @@ body{
    align-items: center;
 
 }
+ /* percent can be applied only when width and height are same  */
 
-.pfp{
+
+ /* .pfp{
     width: 10vw;
     height: 10vw;
+   
     border-radius: 50%;
     background-color: white;
     background-image: url('https://github.com/dhruv9112.png');
     background-size: cover;
     
-}
+} 
+
 
 .class1{
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-} */
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}  */
 
 
 
@@ -72,8 +76,9 @@ body{
 .container{
     width: 800px;
     height: 800px;
-    background-color: aquamarine;
+    background-color: yellow;
 }
+
 .box{
     width: 200px;
     height: 200px;
@@ -81,6 +86,9 @@ body{
     animation: left-right 2s forwards infinite alternate;
 }
 
+
+/* see definition on w3s schools */
+/* keyframes are used to define style at particular instance */
 @keyframes left-right{
     0% {
         transform: translateX(0);

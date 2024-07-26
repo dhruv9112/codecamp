@@ -1,10 +1,10 @@
 /* this is external css */
- /* inline > id> class > tagname (order of specificity) */
+ /* inline > id> class > tagname (order of specificity while applying styles) */
 
-/*  for class we use ->.   */
+/*  for class we use -> (.)  */
 
 /* see what is css box model is  */
-/* padding is internal space between text and box, margin is space between two boxes or outside space */
+/* padding is internal space between text and box border, margin is space between two boxes or outside space of border*/
 
   
 
@@ -17,7 +17,7 @@
   color: black;
  }
 
-/* for id we use-> #  */
+/* for id we use-> (#)  */
  #head1{
   background-color: green;
   color: blue;
@@ -32,7 +32,7 @@
     padding: 0;
     margin: 0;
  }
-
+/* px stands for pixel */
 .container{
     width: 500px;
     height: 500px;
@@ -44,6 +44,7 @@
     width: 100px;
     height: 100px;
     background-color: blue;
+    /* absolute is used only when parent has position attribute used inside it  */
     position: absolute;
 
 }
@@ -53,6 +54,7 @@
     height: 100px;
     background-color: pink;
     position: absolute;
+    /* top,right,bottom,left etc are used only when position is absolute */
     top: 0;
     right: 0;
 
@@ -85,13 +87,13 @@
 }
 
 .newinput::placeholder{
-    color: brown;
+    color:peru;
 
 }
 
 .newinput:focus{
-    outline: solid ;
-    color: brown;
+    outline: solid;
+    color: blueviolet;
     
 }
 
@@ -106,7 +108,7 @@
 }
 
 .btn:hover{
-    cursor: pointer;
+    cursor:pointer;
     background-color: lightgreen;
     color: antiquewhite;
 }

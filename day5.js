@@ -39,17 +39,17 @@
 
 // built in functions in js
 
-let user = 'dhruv sharma'
-console.log(user.length)
-console.log(user.split(''))
-console.log(user.split('h'))
+// let user = 'dhruv sharma'
+// console.log(user.length)
+// console.log(user.split(''))
+// console.log(user.split('h'))
 
 
 // in js we use camelcase(not necesssary but conventionally) means when we r using bigger names of functions or variables containing 3-4 names or more,starting letter of that would be small followed by upper case
 // for eg in toUpperCase(), here t is small then U is capital and C is captial
 // eg -> toTheUpperClassSomething
 
-console.log(user.toUpperCase())
+// console.log(user.toUpperCase())
 
 
 // reverse
@@ -83,17 +83,18 @@ console.log(user.toUpperCase())
 
 
 //JSON  ( Javascript object notation)
-
+// DIY(do it yourself)
 
 
 
 
 //if-else conditon
 
-// let number = 6
+// let number = 5
 // if(number==6){
 //     console.log('number is 6')
 // }
 // else{
 //     console.log('number is not 6')
 // }
+
