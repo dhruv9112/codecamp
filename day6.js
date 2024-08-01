@@ -1,4 +1,4 @@
-console.log('connect')
+console.log('connected')
 
 // today topic is function
 // function are group of lines or block of code that can be reusable 
