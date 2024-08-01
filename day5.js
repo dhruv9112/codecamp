@@ -11,12 +11,11 @@
 
 
 
-
-
 // to print something we use console.log
-// console.log('connected')
-// console.log('1'+'1')
-// console.log(1+1)
+console.log('connected')
+console.log('1'+'1')
+console.log(1+1)   
+
 
 
 // in js variables are of 3 types -> const,let,var
@@ -27,12 +26,15 @@
 // console.log(user)   
 
 
+
 // by using let, we can change the value of user, but let keyword is used only first time after that direct initialization of same variable cannot be done by let.
 // let user = 'dhruv'
 // console.log(user)
 // user = 'paras'
 // console.log(user)
 
+
+// let is block scope while var is global scoped
 // let and var are same but only difference is the scope 
 // also u can declare var multiple time for same variable which is not in case of let
 
@@ -46,7 +48,7 @@
 
 
 // in js we use camelcase(not necesssary but conventionally) means when we r using bigger names of functions or variables containing 3-4 names or more,starting letter of that would be small followed by upper case
-// for eg in toUpperCase(), here t is small then U is capital and C is captial
+
 // eg -> toTheUpperClassSomething
 
 // console.log(user.toUpperCase())
@@ -64,8 +66,9 @@
 
 // indexing in js-> starts from 0
 // let number = [1,2,3,4,5]
-//here 4 is at index 3
+// here 4 is at index 3
 // console.log(number[3])
+
 
 // accesing every element
 // let number =[1,2,3,4,5]
@@ -84,7 +87,6 @@
 
 //JSON  ( Javascript object notation)
 // DIY(do it yourself)
-
 
 
 
