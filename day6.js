@@ -12,6 +12,12 @@ console.log('connected')
 // }
 
 
+// we can also use ${} for including variables in our console.log statement
+// let user ='dhruv'
+// let age = 20
+// console.log(`My name is ${user} i am ${age} years old`)
+
+
 // let result = cookMaggi(2,3,4)
 // console.log(result)
 

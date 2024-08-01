@@ -14,7 +14,10 @@
 // to print something we use console.log
 console.log('connected')
 console.log('1'+'1')
-console.log(1+1)   
+console.log(1+1)  
+
+// \n is used for next line also \t tab = 4 spaces
+console.log("my name is dhruv\ni am 20 years old")
 
 
 
