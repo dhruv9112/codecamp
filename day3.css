@@ -6,7 +6,8 @@
 /* see what is css box model is  */
 /* padding is internal space between text and box border, margin is space between two boxes or outside space of border*/
 
-  
+   
+
 
  .heading1{
   background-color: black;     
@@ -100,7 +101,7 @@
 .btn{
     padding: 10px;
     background-color: transparent;
-    border: 1px solid blue;         
+    border: 2px solid blue;         
     font-size: 20px;
     border-radius: 10px;
     transition-duration: 0.4s;

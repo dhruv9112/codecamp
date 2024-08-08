@@ -1,4 +1,4 @@
-
+// JavaScript was invented by Brendan Eich in 1995
 // js is used to provide logic to our website
 
 // data types in js
@@ -17,7 +17,7 @@ console.log('1'+'1')
 console.log(1+1)  
 
 // \n is used for next line also \t tab = 4 spaces
-console.log("my name is dhruv\ni am 20 years old")
+console.log("my name is dhruv\nI am 20 years old")
 
 
 

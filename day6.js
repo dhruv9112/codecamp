@@ -11,6 +11,7 @@ console.log('connected')
 //     return "orders completed"
 // }
 
+// cookMaggi(2,3,4)
 
 // we can also use ${} for including variables in our console.log statement
 // let user ='dhruv'

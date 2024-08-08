@@ -6,7 +6,7 @@ body{
 }
 
 /* .container{
-  width: 900px;
+    width: 900px;
     height: 600px;
     background-color: brown;
     /* display flex divides the inner content into rows and columns */
@@ -103,6 +103,7 @@ body{
     100%{
         transform: translateX(300%);
     }
+
 }
     
 
