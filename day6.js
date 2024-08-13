@@ -24,9 +24,10 @@ console.log('connected')
 
 // Math.random  is a in-built function to generate any random no bw 0 and 1.
 // ceil and floor are round off function(ceil round off to upper near value, floor to lower near value)
-// function randomNumber(){
-//     return Math.floor(Math.random()*10)
-// }
+function randomNumber(){
+    return Math.floor(Math.random()*10)
+}
+
 
 // let number = randomNumber()
 // console.log(number)

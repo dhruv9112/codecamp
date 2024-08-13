@@ -14,17 +14,58 @@
         cursor: pointer;
      }
 
+    #image{
+        transform: translateX(200%);
+        animation: right-left 1s forwards ;
+        animation-play-state: paused;
+    }
+    
+    @keyframes right-left {
+
+        0%{
+            transform: translateX(200%);
+        }
+        
+        100%{
+            transform:  translateX(0%) translateY(100%)
+        }
+
+        
+    }
+    @keyframes left-right {
+
+        0%{
+            transform: translateX(0%) translateY(100%)
+    }
+
+        100%{
+            transform: translateX(200%) 
+    }
+
+
+}
         </style>
+        
+       
 </head>
 <body id="body">
 
-    <h1 id="text">dhruv</h1>
+     <h1 id="text">dhruv</h1>
 
-    <p id="btn">click here to change color</p>
+    <!-- <p id="btn">click here to change </p>
 
-    <img src="https://imgs.search.brave.com/xgRpwlgEVfqC3DiWVi90Q4_s750yI-Tm5cQfG4CxPAU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by8zZC1uZXctYmxh/Y2stYm13LWNhcl8x/MTMxMzc3LTQzNC5q/cGc_c2l6ZT02MjYm/ZXh0PWpwZw" id="image">
+    <img src="https://imgs.search.brave.com/xgRpwlgEVfqC3DiWVi90Q4_s750yI-Tm5cQfG4CxPAU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by8zZC1uZXctYmxh/Y2stYm13LWNhcl8x/MTMxMzc3LTQzNC5q/cGc_c2l6ZT02MjYm/ZXh0PWpwZw" id="image" width="400"> --> 
+     
+    <!-- kind of in-built eventlistener in button tag (onclick)  -->
+    <button id="click" onclick="handleclick()">
+        click here
 
-    <script src="day7.js"></script>
+    </button>
+
+    
+<br><br><br>
+    <!-- <input type="text" id="username"> -->
+     <script src="day7.js"></script>
 
 </body>
 </html>
